@@ -1,4 +1,13 @@
 # Regex Tutorial: Matching a Hex Value
+
+Regular expressions, or regex for short, are a series of special characters that define a search pattern. 
+
+Take the example of a regular expression, which we will call "Hex Value."
+
+```
+/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+```
+
 Hex color values play a crucial role in web development for defining colors in a hexadecimal format. In this tutorial, we will explore a regular expression designed to validate hex color values. The regex pattern is /^#?([a-f0-9]{6}|[a-f0-9]{3})$/.
 
 ## Summary
